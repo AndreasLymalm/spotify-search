@@ -1,0 +1,38 @@
+#search-results-container {
+    display: table;
+    position: relative;
+    width: 25%;
+
+    #search-results {
+        position: absolute;
+        width: 100%;
+
+        .search-result {
+            height: 100px;
+            margin: 10px 0;
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & > * {
+                margin-right: 4px;
+            }
+            
+            & > img {
+                height: 100%;
+                width: auto;
+            }
+            
+            .search-result-info {
+                & > * {
+                    padding: 5px;
+                }
+                
+                & > p {
+                    margin: 0;
+                }
+            }
+        }        
+    }
+}

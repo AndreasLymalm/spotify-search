@@ -1,0 +1,9 @@
+#search-container {
+    display: table;
+    margin: 50px;
+
+    & > * {
+        vertical-align: middle;
+        margin: 0 4px;
+    }
+}
